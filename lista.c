@@ -147,7 +147,7 @@ int Remove(NODE *lista, int valor)
 	return 1;
 }
 
-
+//limpa toda a lista;
 int clear(NODE **lista)
 {
 	NODE *tmp;
