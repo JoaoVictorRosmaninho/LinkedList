@@ -24,13 +24,13 @@ void Mensagem(const char *msg, int cod_err);
 
 int main(void)
 {
-	Lista lista;
-	Inic(&lista);
-	add(&lista, 2);
-	add(&lista, 7);
-	add(&lista, 5);
-	add(&lista, 3);
-	add(&lista, 17);
+    Lista lista;
+    Inic(&lista);
+    add(&lista, 2); 
+    add(&lista, 7);
+    add(&lista, 5);
+    add(&lista, 3);
+    add(&lista, 17);
     Display(lista);
     sort(lista);
     Display(lista);
