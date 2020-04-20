@@ -67,7 +67,7 @@ int add(NODE **lista, int num)
 	}
 	return 1;
 }
-//creação do nó
+//criação do nó
 NODE *createnode(int num)
 {
 	NODE *newNode;
